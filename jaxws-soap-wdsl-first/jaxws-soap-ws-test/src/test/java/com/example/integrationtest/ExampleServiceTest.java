@@ -28,7 +28,7 @@ import org.junit.runner.RunWith;
 public class ExampleServiceTest {
     private static ExampleService_Service service;
     private static ExampleService port;
-    private static String wsdlUrl = "http://127.0.0.1:8080/epsos-wsgen-1.0-SNAPSHOT/ExampleService";
+    private static String wsdlUrl = "http://localhost:8080/jaxws-soap-ws-1.0-SNAPSHOT/ExampleService?wsdl";
     
     @Deployment(testable = false)
     public static Archive<WebArchive> getArchive() {

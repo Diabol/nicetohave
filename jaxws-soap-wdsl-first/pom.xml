@@ -4,7 +4,7 @@
   <artifactId>jaxws-soap-example</artifactId>
   <version>0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
-  <name>Jaxws SOAP example</name>
+  <name>Jaxws SOAP Example</name>
   <modules>
     <module>jaxws-soap-ws</module>
     <module>jaxws-soap-ws-test</module>

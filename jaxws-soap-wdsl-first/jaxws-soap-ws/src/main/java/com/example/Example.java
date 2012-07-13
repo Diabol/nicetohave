@@ -14,6 +14,7 @@ import javax.jws.WebService;
 @WebService(endpointInterface = "com.example.jaxws.ExampleService")
 public class Example implements ExampleService{
 
+    @Override
     public String sayHello(String name) {
         if(name != null && !name.equals("")) {
             return "Hello " + name + "!";
