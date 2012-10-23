@@ -1,1 +1,1 @@
-asdkdTestat git hook!!
+Testat git hook!!
